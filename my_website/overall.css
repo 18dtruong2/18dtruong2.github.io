@@ -1,27 +1,81 @@
 html{
     height: 100%;
+    background-color: #abcdef;
 }
+nav{
+    text-align: center;
+    float: left;
+    width:200px;
+    background-color: #dddddd;
+    height: 600px;
+    margin: 20 0 0 0;
+    padding: 1em;
+    border: 10px;
+    border-style: solid;
+}
+body{
+    text-align: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    float: left;
+}
+
 header, footer{
     background-color: black;
     color: white;
     border-style: double;
     border-color: white;
+    clear: left;
 }
 footer{
-    margin-top: 100px;
+    margin-top: 300px;
+    text-align: center;
+    height: 100px;
 }
-nav{
-    text-align: left;
+
+#links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li a {
+    display: block;
+    color: black;
+}
+footer a{
+    color: white;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+aside{
+    margin-left: 300px;
+}
+.hobbies{
+    margin-left: 20px;
+}
+#aboutme{
+    border: 5px;
+    border-style: solid;
+    background-color: #dddddd;
 }
 a:link{
-    
+    font:50px;
 }
 a:visited{
+    text-decoration: none;
     
 }
-a:hover{
-    
+footer a:hover{
+    color: #dddddd;
 }
-a:active{
+li a: hover{
+    color: black;
+}
     
 }
