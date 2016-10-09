@@ -12,10 +12,10 @@ tr{
     text-align: center;
 }
 ol{
-    float: left;
-    overflow: auto;
     margin-left: 100px;
     height: 100px;
+    width: 350px;
+    float: none;
 }
 th{
     text-align: center;
@@ -24,6 +24,7 @@ table{
     float: left;
     padding: 10px;
 }
+
 
 
 

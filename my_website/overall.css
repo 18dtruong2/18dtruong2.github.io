@@ -1,6 +1,6 @@
 html{
     height: 100%;
-    background-color: #abcdef;
+    
 }
 nav{
     text-align: center;
@@ -8,7 +8,8 @@ nav{
     width:200px;
     background-color: #dddddd;
     height: 600px;
-    margin: 20 0 0 0;
+    margin-top: 40px;
+    margin-left: 20px;
     padding: 1em;
     border: 10px;
     border-style: solid;
@@ -17,6 +18,9 @@ body{
     text-align: left;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     float: left;
+    background-image: url('images/coolbkg.jpg');
+    background-size: 100%;
+    background-repeat: repeat-y;
 }
 
 header, footer{
@@ -55,6 +59,10 @@ article {
 }
 aside{
     margin-left: 300px;
+    background-color: #dddddd;
+    border-style: solid;
+    border: 7px;
+    border-color: black;
 }
 .hobbies{
     margin-left: 20px;
@@ -63,6 +71,7 @@ aside{
     border: 5px;
     border-style: solid;
     background-color: #dddddd;
+    margin-left: 20px;
 }
 a:link{
     font:50px;

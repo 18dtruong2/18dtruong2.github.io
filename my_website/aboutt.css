@@ -1,0 +1,88 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    background-image: url(images/coolbkg.jpg);
+}
+#header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+.container{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+#logoArea{
+    width: 300px;
+    height: 100px;
+    background: black;
+    float: left;
+}
+#NavArea{
+    width:660px;
+    height: 100px;
+    float: right;
+}
+#nav{
+    list-style: none;
+    margin-top: 30px;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+}
+#nav li{
+    float: left;
+    margin-left: 30px;
+    background-color: #252525;
+    padding: 8px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+#nav li: hover{
+    border-color: red;
+}
+.page{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 1px;
+}
+#footer{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    color: white;
+    padding-top: 20px;
+}
+p{
+    margin-bottom: 20px;
+}
+table{ 
+    margin: auto; 
+    border: 4px black solid;
+}
+th, td{
+    text-align: center;
+    border: 1px solid black;
+}
+ol{
+    border: 4px black solid;
+    max-width: 250px;
+    margin: 5px auto;
+}
+.bottomlinks{
+    color: white;
+}
+a.bottomlinks: link{
+    text-decoration: none; 
+}
+a.bottomlinks: visited{
+    text-decoration: none;
+}
+a.bottomlinks: hover{
+    color: gray;
+}
