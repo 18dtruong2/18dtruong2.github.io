@@ -74,7 +74,7 @@ ol{
     max-width: 250px;
     margin: 5px auto;
 }
-.bottomlinks{
+a.bottomlinks{
     color: white;
 }
 a.bottomlinks: link{
